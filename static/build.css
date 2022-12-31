@@ -317,7 +317,9 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em
+    font-size: 1.5em;
+    color: #666;
+    font-family: 'Noto Serif TC', serif;
 }
 
 h3 {
@@ -648,8 +650,8 @@ button::-moz-focus-inner {
     content: "";
     display: block;
     width: 48px;
-    margin: 40px auto;
-    border-top: 5px solid #1b2c33
+    margin: 30px auto;
+    border-top: 0.5px solid #666
 }
 
 .article h2:first-of-type {
@@ -949,7 +951,7 @@ button::-moz-focus-inner {
     overflow: hidden;
 }
 
-.cover--video video{
+.cover--video video {
     position: absolute;
     z-index: -1;
     object-fit: cover;
